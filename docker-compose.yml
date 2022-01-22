@@ -1,0 +1,10 @@
+version: 2,
+services:
+  client:
+    stdin_open: true
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - "/app/node_modules"
+      - "./:/app"
