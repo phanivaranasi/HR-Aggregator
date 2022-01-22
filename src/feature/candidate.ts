@@ -1,0 +1,1 @@
+export const king='kig';
